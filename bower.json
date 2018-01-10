@@ -1,0 +1,31 @@
+{
+  "name": "btcnano-channel",
+  "main": "./btcnano-channel.min.js",
+  "version": "0.1.0",
+  "homepage": "https://github.com/bitcoinnano/btcnano-channel",
+  "authors": [
+    "Jack chen"
+  ],
+  "description": "Payment Channels implemented for Btcnano.",
+  "moduleType": [
+    "globals"
+  ],
+  "keywords": [
+    "btcnano",
+    "bitcoin",
+    "bitcore",
+    "btn",
+    "satoshi",
+    "payment channels",
+    "channel",
+    "smart contract"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ]
+}

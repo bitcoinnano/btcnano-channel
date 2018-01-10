@@ -1,0 +1,50 @@
+{
+  "name": "btcnano-channel",
+  "version": "0.1.0",
+  "description": "Add payment channels support to btcnano",
+  "scripts": {
+    "lint": "gulp lint",
+    "test": "gulp test",
+    "coverage": "gulp coverage"
+  },
+  "author": "Jack chen <278910933@qq.com>",
+  "contributors": [
+    {
+      "name": "Jack chen",
+      "email": "jackchen1615@gmail.com"
+    },
+    {
+      "name": "Esteban Ordano",
+      "email": "eordano@gmail.com"
+    },
+    {
+      "name": "Manuel Araoz",
+      "email": "manuelaraoz@gmail.com"
+    }
+  ],
+  "keywords": [
+    "btcnano",
+    "bitcoin",
+    "bitcore",
+    "btn",
+    "satoshi",
+    "payment channels",
+    "channel",
+    "smart contract"
+  ],
+  "license": "MIT",
+  "repository": "https://github.com/bitcoinnano/btcnano-channel",
+  "dependencies": {
+    "btcnano-lib": "^0.1.0",
+    "inherits": "=2.0.1"
+  },
+  "devDependencies": {
+    "btcnano-build": "git://github.com/bitcoinnano/btcnano-build.git",
+    "brfs": "^1.2.0",
+    "chai": "^2.3.0",
+    "gulp": "^3.8.10",
+    "nodejs-externs": "^0.10.0",
+    "request": "^2.48.0",
+    "vinyl-transform": "^1.0.0"
+  }
+}
